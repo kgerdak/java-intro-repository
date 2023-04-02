@@ -13,6 +13,7 @@ public class MyFirstJavaMethod {
         describeMe();
         System.out.println("two");
         describeMe();
+        // if u use TODO: there is a marker at the bottom
     }
 
     public static void describeMe() {
