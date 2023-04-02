@@ -66,6 +66,8 @@ public class JavaTypes {
         System.out.println("isAdult current value: " + isAdult);
 
 
+
+
     }
 }
 
