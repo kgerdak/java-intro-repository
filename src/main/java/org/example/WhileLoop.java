@@ -1,7 +1,7 @@
 package org.example;
 
-public class Loops {
-
+public class WhileLoop {
+//do not change class name here, do refactor and rename
     public static void main(String[] args) {
         // repeat that line 100 times
         System.out.println("Let's play with loops");
