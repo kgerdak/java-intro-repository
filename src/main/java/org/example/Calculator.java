@@ -3,18 +3,21 @@ package org.example;
 public class Calculator {
 
     public static void main(String[] args) {
-
-    int result1 = addTwoNumbers(3, 5);
-    int result2 = addTwoNumbers(10, 22);
-
-        System.out.println("Result1 is " + result1);
-        System.out.println("Result2 is " + result2);
+        System.out.println("Using my homework calculator");
     }
-
-    public static int addTwoNumbers(int firstNumber, int secondNumber) {
-        System.out.println("I'm going to add two numbers");
-        int result = firstNumber + secondNumber;
-        System.out.println("Final result is: " + result);
+    public int add(int a, int b) {
+        System.out.println("Received parameters, a = " + a + ", b = " + b);
+        int result = a + b;
+        System.out.println("Calculation result is: " + result);
         return result;
+    }
+    public int sub(int a, int b) {
+        return a - b;
+    }
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+    public int div(int a, int b) {
+        return a / b;
     }
 }
