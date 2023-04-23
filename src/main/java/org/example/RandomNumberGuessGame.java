@@ -14,12 +14,17 @@ public class RandomNumberGuessGame {
         int randomNumber = random.nextInt(25) + 1;  // Generates a random integer between 1 and 25
         System.out.println("Random number: " + randomNumber);
 
-        String result;
+
+        String result = "Invalid guess"; // Add default value
+
         if (num1 == randomNumber) {
             result = "Correct!";
-        } else {
-            result = "Incorrect!";
+        } else if (num1 < randomNumber){
+            result = "Incorrect, number too low!";
+        } else if (num1 > randomNumber) {
+            result = "Incorrect, number too high!";
         }
+
         System.out.println(result);
     }
 }
