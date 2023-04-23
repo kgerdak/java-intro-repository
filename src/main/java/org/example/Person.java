@@ -6,4 +6,6 @@ public class Person {
     int age;
 
     Address personAddress;
+    Phone phoneNumber;
+
 }
